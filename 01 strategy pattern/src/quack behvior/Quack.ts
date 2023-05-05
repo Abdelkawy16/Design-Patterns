@@ -1,4 +1,4 @@
-import { QuackBehavior } from "./QuackBahvior";
+import { QuackBehavior } from "./QuackBehvior";
 
 export class Quack implements QuackBehavior {
     quack(): void {
