@@ -9,16 +9,22 @@ export class PepperoniPizza implements Pizza{
         this.toppings = ["Pepperoni"];
     }
     prepare() {
-        throw new Error("Method not implemented.");
-    }
-    bake() {
-        throw new Error("Method not implemented.");
-    }
-    cut() {
-        throw new Error("Method not implemented.");
-    }
-    box() {
-        throw new Error("Method not implemented.");
-    }
+        console.log("Preparing " + name);
+        console.log("Tossing dough...");
+        console.log("Adding sauce...");
+        console.log("Adding toppings: ");
+        for (const topping of this.toppings) {
+          console.log(" " + topping);
+        }
+      }
+      bake() {
+        console.log("Bake for 25 minutes at 350.");
+      }
+      cut() {
+        console.log("Cutting the pizza into diagonal slices.");
+      }
+      box() {
+        console.log("Place pizza in official PizzaStore box.");
+      }
 
 }
