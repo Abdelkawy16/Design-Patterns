@@ -7,8 +7,11 @@ export class simpleRemoteControl{
         this.slot = _command;
     }
 
-    buttonWasPressed(){
+    onButtonWasPressed(){
         this.slot.excute();
+    }
+    offButtonWasPressed(){
+        this.slot.unexcute();
     }
 
 }
