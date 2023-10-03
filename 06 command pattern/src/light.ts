@@ -4,6 +4,6 @@ export class light{
     }
     
     off(){
-        console.log("light is of!")
+        console.log("light is off!")
     }
 }
