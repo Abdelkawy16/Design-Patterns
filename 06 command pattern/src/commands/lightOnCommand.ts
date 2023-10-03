@@ -1,5 +1,5 @@
 import { command } from "./command";
-import { light } from "./light";
+import { light } from "../receivers/light";
 
 export class lightOnCommand implements command{
     light:light;

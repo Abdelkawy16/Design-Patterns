@@ -1,4 +1,4 @@
-import { command } from "./command";
+import { command } from "./commands/command";
 
 export class simpleRemoteControl{
     slot:command;

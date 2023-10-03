@@ -1,7 +1,7 @@
-import { garageDoor } from "./garageDoor";
-import { garageDoorOpenCommand } from "./garageDoorOpenCommand";
-import { light } from "./light";
-import { lightOnCommand } from "./lightOnCommand";
+import { garageDoor } from "./receivers/garageDoor";
+import { garageDoorOpenCommand } from "./commands/garageDoorOpenCommand";
+import { light } from "./receivers/light";
+import { lightOnCommand } from "./commands/lightOnCommand";
 import { simpleRemoteControl } from "./simpleRemoteControl";
 
 function main() {

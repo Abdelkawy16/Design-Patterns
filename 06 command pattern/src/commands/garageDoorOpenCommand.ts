@@ -1,5 +1,5 @@
 import { command } from "./command";
-import { garageDoor } from "./garageDoor";
+import { garageDoor } from "../receivers/garageDoor";
 
 export class garageDoorOpenCommand implements command{
     garageDoor:garageDoor;
