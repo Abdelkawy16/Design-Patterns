@@ -13,6 +13,12 @@ function main() {
     remoteControl.setCommand(new garageDoorCommand(_garageDoor));
     remoteControl.onButtonWasPressed();
     remoteControl.offButtonWasPressed();
+    remoteControl.undo();
+    remoteControl.undo();
+    remoteControl.undo();
+    remoteControl.redo();
+    remoteControl.redo();
+    remoteControl.redo();
 }
 
 main();
